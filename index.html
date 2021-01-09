@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cd68c6847f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Vagas.com</title>
+</head>
+<body>
+   
+    <div class="conteiner">
+
+        <header>
+            <h1>Formulário<br>para compra de<br><span>pacote de stickers</span> </h1>
+        </header>
+
+      <div class="content">  
+     
+        <p>Quais stickers:</p>
+        
+     <div class="stickers">
+        <div class="row">
+            <input type="checkbox" id="one" name="react">
+            <label for="one">React</label>            
+        </div>
+        <div class="row">
+            <input type="checkbox" id="two" name="vue">
+            <label for="two">Vue</label>
+        </div>
+     <div class="row">
+        <input type="checkbox" id="three" name="angular">
+        <label for="three">Angular</label>
+     </div>
+
+         
+     </div>
+
+     <p>Quantos stickers de cada?</p>
+
+        <div class="click">
+            <button><i class="fas fa-minus-square" onclick="clicks()"></i></button>
+            <input type="text" id="saida_numero">
+            <button><i class="fas fa-plus-square" onclick="clicks2()"></i></button>
+        </div>
+
+        <p>Observações:</p>
+        <div class="text">
+           <textarea placeholder="Alguma duvida? Recado?"></textarea>
+        </div>
+
+        <div class="rodape"> 
+            <button type="submit" onclick="obrigado()">ENVIAR</button>
+        </div>
+            
+        
+
+    </div> 
+</body>
+    <script src="./vagas.js"></script>
+</html>

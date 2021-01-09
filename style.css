@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+    background-color: rebeccapurple;
+}
+
+.conteiner{
+    height: 700px;
+    width: 550px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 10px 18px black;
+    
+}
+
+.content{
+    margin-left: 25px;
+}
+
+/*CABEÇALHO*/
+
+header{
+    background-image: url(images/header.png);
+    height: 180px;
+    background-size: cover;
+    display: flex;
+    
+}
+
+h1{
+    font-size: 23px;
+    color: #f2f2f2;
+    margin-left: 25px;
+    font-weight: 300;
+}
+
+header h1 span{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.46;
+}
+
+/*FIM DO CABEÇALHO*/
+
+.stickers{
+    display: flex;
+    flex-direction: column;
+}
+
+.stickers .row {
+    display: flex;
+    align-items: center;
+
+}
+
+.stickers .row input{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+p {
+   width: 80%;
+   margin-top: 40px;
+   font-weight: bolder;
+}
+
+.click{
+    display: flex;
+    align-items: center;
+}
+
+
+.click input{
+    border: 1px solid #2f3676;
+    border-radius: 6px;
+}
+
+.click button{
+
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+.text textarea{
+    height: 100px;
+    width: 300px;
+    border: 1px solid #2f3676;
+    border-radius: 6px;
+    
+}
+
+.click input{
+    padding: 3px;
+    width: 40px;
+    text-align: center;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    
+}
+
+
+
+.rodape button{
+    width: 90;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    color: #f2f2f2;
+    background-color:#2f3676 ;
+    padding: 10px;
+    height: 40px;
+    margin-right: 30;
+    margin-top: 50;
+    cursor: pointer;
+}
+
+.rodape button:hover{
+    background-color:black;
+
+}
+
